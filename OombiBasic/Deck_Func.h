@@ -1,6 +1,8 @@
 #ifndef DECK_FUNC_H
 #define DECK_FUNC_H
 
+#include <Windows.h>
+
 // macros
 #define GetCardType(Card) (Card / 8)
 #define GetCardVal(Card) (Card % 8)

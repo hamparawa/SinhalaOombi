@@ -1,0 +1,66 @@
+
+========================================================
+          Oombi Sinhala - Version History
+========================================================
+
+v 0.95 beta 1 -
+* First release, only among friends. Had lot of bugs,
+  could only play one round, no animation!
+  
+v 0.95 beta 2 - 
+* Avoided crashing after one round.
+  
+v 0.96
+* First Major release, could play many rounds.
+* Can choose a New game
+* Sinhala menu.
+  
+v 0.97
+* Added sounds to the game.
+* Used pattern Brush to paint client, now it looks like a
+  velvet!
+  
+v 0.98
+* Fixed a bug, while being Seopru & then Kapothi, the 
+  seopru was still there.
+* Fixed a bug, didn't say trumps & win, win 2 poins.
+* Added version History to the Resources.
+
+v 1.01
+* Changed the card pack to Vista card pack.
+
+v 1.02
+* Small Bug Fixed in the StatusBar.
+* Added Keyboard Interface.
+
+v 1.03
+* Improved the Painting speed.
+* Resizable Window.
+* cards in the same suit are grouped together.
+* Fixed a deadlock while painting & moving @ the same time.
+* Fixed minor sound issues
+
+v 1.04
+* Added 'ShowLastHand'.
+
+v 1.05
+* Redesigned 'ShowLastHand'.
+* Introduced CheatMode.(ctrl+F3)
+
+v 1.06
+* Redesigned CheatMode.
+
+v 1.07
+* Option to switch on/off Sound
+
+v 1.08
+* Sort the Hand before declaring trumps.
+* Logic Improvements.(prob. with K)
+
+v 1.09
+* Major Logic Fixes(prob. with Aces &  drawing trumps early)
+* At least one card will be over 10 when declaring trumps.
+* Enhanced counting of cards(Ai)
+* (This will probably be the final version...?)
+
+

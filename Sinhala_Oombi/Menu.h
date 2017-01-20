@@ -1,0 +1,28 @@
+
+#ifndef MENU_H
+#define MENU_H
+
+enum MENU_IDS
+{
+	IDM_NULL,
+	
+	IDM_GAME,
+	IDM_GAME_NEW,
+	IDM_GAME_SOUND,
+	IDM_GAME_EXIT,
+
+	IDM_HELP,
+	IDM_HELP_LASTHAND,
+	IDM_HELP_HELP,
+	IDM_HELP_VHIST,
+	IDM_HELP_ABOUT
+};
+
+
+
+HMENU DefineMenu(void);
+void On_MeasureItem(HWND, LPMEASUREITEMSTRUCT);
+void On_DrawItem(HWND, LPDRAWITEMSTRUCT);
+
+
+#endif // MENU_H

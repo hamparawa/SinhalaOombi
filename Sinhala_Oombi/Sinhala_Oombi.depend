@@ -1,0 +1,123 @@
+# depslib dependency file v1.0
+1224868274 source:/media/Music/z_MyProg/C++/Sinhala_Oombi/Sinhala_Oombi/Res.rc
+	"resource.h"
+	"afxres.h"
+
+1224217456 /media/Music/z_MyProg/C++/Sinhala_Oombi/Sinhala_Oombi/resource.h
+
+1224868274 source:e:\z_myprog\c++\sinhala_oombi\sinhala_oombi\res.rc
+	"resource.h"
+	"afxres.h"
+
+1224217456 e:\z_myprog\c++\sinhala_oombi\sinhala_oombi\resource.h
+
+1224684766 source:e:\z_myprog\c++\sinhala_oombi\sinhala_oombi\about.cpp
+	<windows.h>
+	"common.h"
+	"MyWinTools.h"
+
+1224904380 e:\z_myprog\c++\sinhala_oombi\sinhala_oombi\common.h
+	"Deck_Func.h"
+	"Oombi_play.h"
+	"Win_Msgs.h"
+	"CardDeck.h"
+	"Play_win.h"
+	"Rhs_Statusbar.h"
+	"FontMem.h"
+	"Animation.h"
+	"Msgbox.h"
+	"Menu.h"
+	"About.h"
+	"LastHand.h"
+
+1224905004 e:\z_myprog\c++\sinhala_oombi\sinhala_oombi\deck_func.h
+
+1239969274 e:\z_myprog\c++\sinhala_oombi\sinhala_oombi\oombi_play.h
+
+1239969274 e:\z_myprog\c++\sinhala_oombi\sinhala_oombi\win_msgs.h
+
+1239969274 e:\z_myprog\c++\sinhala_oombi\sinhala_oombi\carddeck.h
+	"resource.h"
+
+1239969274 e:\z_myprog\c++\sinhala_oombi\sinhala_oombi\play_win.h
+
+1239969274 e:\z_myprog\c++\sinhala_oombi\sinhala_oombi\rhs_statusbar.h
+
+1239969274 e:\z_myprog\c++\sinhala_oombi\sinhala_oombi\fontmem.h
+	<windows.h>
+
+1239969274 e:\z_myprog\c++\sinhala_oombi\sinhala_oombi\animation.h
+
+1239969086 e:\z_myprog\c++\sinhala_oombi\sinhala_oombi\msgbox.h
+
+1224566136 e:\z_myprog\c++\sinhala_oombi\sinhala_oombi\menu.h
+
+1224684790 e:\z_myprog\c++\sinhala_oombi\sinhala_oombi\about.h
+
+1218426700 e:\z_myprog\c++\sinhala_oombi\sinhala_oombi\lasthand.h
+
+1211339494 e:\z_myprog\c++\sinhala_oombi\sinhala_oombi\mywintools.h
+	<windows.h>
+
+1224901952 source:e:\z_myprog\c++\sinhala_oombi\sinhala_oombi\animation.cpp
+	<windows.h>
+	"Common.h"
+	"Animation.h"
+
+1224215760 source:e:\z_myprog\c++\sinhala_oombi\sinhala_oombi\carddeck.cpp
+	<windows.h>
+	"Common.h"
+	"resource.h"
+
+1239969168 source:e:\z_myprog\c++\sinhala_oombi\sinhala_oombi\deck_func.cpp
+	<windows.h>
+	<algorithm>
+	<functional>
+	<vector>
+	<time.h>
+	<assert.h>
+	"Common.h"
+
+1218702020 source:e:\z_myprog\c++\sinhala_oombi\sinhala_oombi\lasthand.cpp
+	<windows.h>
+	"Common.h"
+	"LastHand.h"
+	"MyWinTools.h"
+
+1211640738 source:e:\z_myprog\c++\sinhala_oombi\sinhala_oombi\msgbox.cpp
+	<windows.h>
+	"common.h"
+	"Msgbox.h"
+	"MyWinTools.h"
+
+1224914632 source:e:\z_myprog\c++\sinhala_oombi\sinhala_oombi\oombi_play.cpp
+	<windows.h>
+	"common.h"
+
+1224905002 source:e:\z_myprog\c++\sinhala_oombi\sinhala_oombi\play_win.cpp
+	<windows.h>
+	<vector>
+	<algorithm>
+	"play_Win.h"
+	"Common.h"
+
+1224212900 source:e:\z_myprog\c++\sinhala_oombi\sinhala_oombi\rhs_statusbar.cpp
+	<windows.h>
+	"Common.h"
+	"Rhs_Statusbar.h"
+
+1268555267 source:e:\z_myprog\c++\sinhala_oombi\sinhala_oombi\menu.cpp
+	<windows.h>
+	"common.h"
+
+1268555234 source:e:\z_myprog\c++\sinhala_oombi\sinhala_oombi\win_msgs.cpp
+	<windows.h>
+	"Win_Msgs.h"
+	"Common.h"
+
+1224904380 source:e:\z_myprog\c++\sinhala_oombi\sinhala_oombi\main.cpp
+	<windows.h>
+	"resource.h"
+	"common.h"
+	"MyWinTools.h"
+

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Sinhala_Oombi" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug Win32">
+				<Option output="Debug/Sinhala_Oombi" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Debug" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-W" />
+					<Add option="-g" />
+					<Add option="-O0" />
+				</Compiler>
+				<Linker>
+					<Add library="winmm" />
+					<Add library="gdiplus" />
+				</Linker>
+			</Target>
+			<Target title="Release Win32">
+				<Option output="Release/Sinhala_Oombi" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Release" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-W" />
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add library="winmm" />
+					<Add library="gdiplus" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="Resource/Ks_ara.ttf" />
+		<Unit filename="Resource/Plus.txt" />
+		<Unit filename="Resource/Readme_En.txt" />
+		<Unit filename="Resource/SinhalaOombi.exe.manifest" />
+		<Unit filename="Resource/VersionHistory.txt" />
+		<Unit filename="About.cpp" />
+		<Unit filename="Animation.cpp" />
+		<Unit filename="CardDeck.cpp" />
+		<Unit filename="Deck_Func.cpp" />
+		<Unit filename="LastHand.cpp" />
+		<Unit filename="main.cpp" />
+		<Unit filename="Menu.cpp" />
+		<Unit filename="MsgBox.cpp" />
+		<Unit filename="Oombi_Play.cpp" />
+		<Unit filename="Play_Win.cpp" />
+		<Unit filename="Rhs_StatusBar.cpp" />
+		<Unit filename="Win_Msgs.cpp" />
+		<Unit filename="About.h" />
+		<Unit filename="Animation.h" />
+		<Unit filename="CardDeck.h" />
+		<Unit filename="Common.h" />
+		<Unit filename="Deck_Func.h" />
+		<Unit filename="LastHand.h" />
+		<Unit filename="Menu.h" />
+		<Unit filename="MsgBox.h" />
+		<Unit filename="MyWinTools.h" />
+		<Unit filename="Oombi_Play.h" />
+		<Unit filename="Play_Win.h" />
+		<Unit filename="resource.h" />
+		<Unit filename="Rhs_StatusBar.h" />
+		<Unit filename="Win_Msgs.h" />
+		<Unit filename="Resource/Misc/Audio.ico" />
+		<Unit filename="Resource/Misc/Closed.ico" />
+		<Unit filename="Resource/Icon.ico" />
+		<Unit filename="Res.rc" />
+		<Unit filename="Resource/CardPack/CARD_BACK.bmp" />
+		<Unit filename="Resource/CardPack/CLUBS.bmp" />
+		<Unit filename="Resource/CardPack/CLUBS_10.bmp" />
+		<Unit filename="Resource/CardPack/CLUBS_7.bmp" />
+		<Unit filename="Resource/CardPack/CLUBS_8.bmp" />
+		<Unit filename="Resource/CardPack/CLUBS_9.bmp" />
+		<Unit filename="Resource/CardPack/CLUBS_A.bmp" />
+		<Unit filename="Resource/CardPack/CLUBS_J.bmp" />
+		<Unit filename="Resource/CardPack/CLUBS_K.bmp" />
+		<Unit filename="Resource/CardPack/CLUBS_Q.bmp" />
+		<Unit filename="Resource/CardPack/DIAMOND.bmp" />
+		<Unit filename="Resource/CardPack/DIAMOND_10.bmp" />
+		<Unit filename="Resource/CardPack/DIAMOND_7.bmp" />
+		<Unit filename="Resource/CardPack/DIAMOND_8.bmp" />
+		<Unit filename="Resource/CardPack/DIAMOND_9.bmp" />
+		<Unit filename="Resource/CardPack/DIAMOND_A.bmp" />
+		<Unit filename="Resource/CardPack/DIAMOND_J.bmp" />
+		<Unit filename="Resource/CardPack/DIAMOND_K.bmp" />
+		<Unit filename="Resource/CardPack/DIAMOND_Q.bmp" />
+		<Unit filename="Resource/CardPack/HEART.bmp" />
+		<Unit filename="Resource/CardPack/HEART_10.bmp" />
+		<Unit filename="Resource/CardPack/HEART_7.bmp" />
+		<Unit filename="Resource/CardPack/HEART_8.bmp" />
+		<Unit filename="Resource/CardPack/HEART_9.bmp" />
+		<Unit filename="Resource/CardPack/HEART_A.bmp" />
+		<Unit filename="Resource/CardPack/HEART_J.bmp" />
+		<Unit filename="Resource/CardPack/HEART_K.bmp" />
+		<Unit filename="Resource/CardPack/HEART_Q.bmp" />
+		<Unit filename="Resource/CardPack/QUESTION.bmp" />
+		<Unit filename="Resource/CardPack/SPADE.bmp" />
+		<Unit filename="Resource/CardPack/SPADE_10.bmp" />
+		<Unit filename="Resource/CardPack/SPADE_7.bmp" />
+		<Unit filename="Resource/CardPack/SPADE_8.bmp" />
+		<Unit filename="Resource/CardPack/SPADE_9.bmp" />
+		<Unit filename="Resource/CardPack/SPADE_A.bmp" />
+		<Unit filename="Resource/CardPack/SPADE_J.bmp" />
+		<Unit filename="Resource/CardPack/SPADE_K.bmp" />
+		<Unit filename="Resource/CardPack/SPADE_Q.bmp" />
+		<Unit filename="Resource/CardPack/VELVET.bmp" />
+		<Unit filename="Resource/Wave/CUT.wav" />
+		<Unit filename="Resource/Wave/DEAL.wav" />
+		<Unit filename="Resource/Wave/SELECT.wav" />
+		<Unit filename="Resource/Wave/STOP.wav" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -30,7 +30,7 @@ void On_Create(HWND hwnd, WPARAM wParam, LPARAM lParam)
 	iFntSize = SizeofResource(hInstance,
 		FindResource(hInstance, MAKEINTRESOURCE(IDR_SINFNT), "FNT"));
 
-	if (!AddFontMemResourceEx(hFnt, iFntSize, 0, &fntInstalled))
+	if (!AddFontMemResourceEx_dyn(hFnt, iFntSize, 0, &fntInstalled))
 	{
 		MessageBox(hwnd, "SinhalaOombi will only run on Win 2000/XP/Vista only",
 			"Err: Loading Sinhala Font", MB_ICONERROR);

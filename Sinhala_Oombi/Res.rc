@@ -97,8 +97,6 @@ IDB_QUESTION            BITMAP                  "Resource\\CardPack\\QUESTION.bm
 // RT_MANIFEST
 //
 
-1                       RT_MANIFEST             "Resource\\SinhalaOombi.exe.manifest"
-
 /////////////////////////////////////////////////////////////////////////////
 //
 // FNT

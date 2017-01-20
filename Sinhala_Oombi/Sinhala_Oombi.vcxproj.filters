@@ -14,10 +14,10 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
     </Filter>
     <Filter Include="cardDeck">
-      <UniqueIdentifier>{a12d64f1-3a98-43c4-a5e3-a9ba8c8b9bb8}</UniqueIdentifier>
+      <UniqueIdentifier>{d0386a8b-d82c-43e1-aa5e-89742ce061f5}</UniqueIdentifier>
     </Filter>
     <Filter Include="Sound">
-      <UniqueIdentifier>{5c6f1ea1-0bcd-4b4b-83e1-1eb7e8f09f3e}</UniqueIdentifier>
+      <UniqueIdentifier>{46b6d6b4-b73a-4050-acf3-769caa1f07b6}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -256,8 +256,5 @@
     <Text Include="Resource\Plus.txt" />
     <Text Include="Resource\Readme_En.txt" />
     <Text Include="Resource\VersionHistory.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <Manifest Include="Resource\SinhalaOombi.exe.manifest" />
   </ItemGroup>
 </Project>

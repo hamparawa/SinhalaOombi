@@ -8,7 +8,7 @@
 
 typedef int (__stdcall *FONTPROC)(PVOID, DWORD, PVOID, DWORD *);
 
-inline int __stdcall AddFontMemResourceEx(PVOID pbFont, DWORD cbFont, PVOID pdv, DWORD *pcFonts )
+inline int __stdcall AddFontMemResourceEx_dyn(PVOID pbFont, DWORD cbFont, PVOID pdv, DWORD *pcFonts )
 {
 	FONTPROC pTrans;
 	HINSTANCE hInstLib;

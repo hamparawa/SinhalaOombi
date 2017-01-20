@@ -10,7 +10,14 @@ classic book on Windows Programming, "Programming Windows" by Charles Petzold. h
 The book has been a great inspiration and "SinhalaOombi" has started even before finishing it. 
 
 ## Compiling 
-The original source was compiled using Microsoft Visual Studio 2001. 
+The original source in the master branch was compiled using Microsoft Visual Studio 2001. 
+Development branch uses CMake build system. To generate sources and build, use following commands.
 
-## Todo
-* Convert the project into CMake based build system.
+```
+  cd <SourceDir>
+  mkdir build
+  cd build
+  cmake ..
+  cmake --build .
+```
+

@@ -21,3 +21,4 @@ Development branch uses CMake build system. To generate sources and build, use f
   cmake --build .
 ```
 
+[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/1823/badge)](https://bestpractices.coreinfrastructure.org/projects/1823)

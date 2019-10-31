@@ -1,7 +1,7 @@
 #ifndef COMMON_H
 #define _COMMON_H
 
-#include "deck_Func.h"
+#include "Deck_Func.h"
 #include "Oombi_play.h"
 
 extern BYTE cardDeck[32];
